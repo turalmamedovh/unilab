@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'ALK Tall';
+    src: url('/fonts/alk-tall-nusxuri-webfont.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/alk-tall-nusxuri-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/alk-tall-nusxuri-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/alk-tall-nusxuri-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/alk-tall-nusxuri-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/alk-tall-nusxuri-webfont.svg#alk_tall_nusxuriregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('/fonts/BebasNeue-Regular.eot');
+  src: url('/fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg'),
+       url('/fonts/BebasNeue-Regular.ttf') format('truetype'),
+       url('/fonts/BebasNeue-Regular.woff') format('woff'),
+       url('/fonts/BebasNeue-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	overflow-x: hidden;
+}
+.contact{text-align: center;}
+#sandro{margin-top:220px;}
+.text {width: 1146px; height: 360px;}
+.date{background-color: #3D58A6; width: 30px;color:white;font-size: 24px;text-align: center;}
+li{list-style-type: none;display:inline-block; margin-left: 100px;text-align: center;}
+a{text-decoration: none;}
+.ravici{position: absolute;
+    left: 50%;}
+    .arvici{display: block;
+    position: relative;
+    left: -50%; padding-top: 100px}
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 10px;
+  width: 70%;
+   text-align:left;
+       left: 4%;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.box1 {
+	background-color: #F2F2F2;
+	display: inline-block;
+     position: absolute;
+    top: 830px;
+    left: 144px;
+       width: 570px;
+      height: 225px;
+}
+
+.text-box1 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "ALK Life", sans-serif;
+   font-size: 12px;
+       width: 355px;
+       margin-left: 30px;
+}
+.image-box1 {
+	width: 102px; height: 145px;
+      margin-left: 41px;
+    margin-top: 11px;
+}
+
+.box {
+	background-color: #F2F2F2;
+	display: inline-block;
+	    width: 570px;
+      height: 225px;
+    position: absolute;
+    top: 830px;
+    left: 775px;
+}
+
+.text-box {
+    display: inline-block;
+    vertical-align: top;
+    /*font-family: 'ALK Tall';*/
+    font-family: 'BebasNeue';
+   font-size: 12px;
+       width: 355px;
+       margin-left: 30px;
+}
+.image-box {
+  width: 102px; 
+  height: 145px;
+      margin-left: 41px;
+    margin-top: 11px;
+}
+
+#logo{
+      position: absolute;
+    top: 9px;
+    left: 91px;
+}
+.title{
+  margin-left: 44px;
+}
+
+.outerbox {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 160%;
+    left: 13%;
+}
+.leftbox {
+    width: calc(20% - 2px);
+    float: left;
+    height: 100%;
+}
+.rightbox {
+    width: calc(80% - 2px);
+    float: left;
+}
+.mytitle{text-transform: uppercase;}
+
+
+#row1{
+    display:flex;
+    flex-direction:row;
+justify-content: space-around;
+width: 1366px;
+height:570px;
+    margin-top: 60px;
+    padding-top: 60px;
+    background-color: lightgray;
+}
+
+
+#column1{
+    display:flex;
+    flex-direction:column;
+   
+}
+
+
+#column2{
+    display:flex;
+    flex-direction:column;
+}
+
+.box2 {
+  display: inline-block;
+
+
+}
+.text-box2 {
+  width: 900px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'BebasNeue';
+    font-size: 12px;
+}
+
+.news{    margin-left: 92px;}

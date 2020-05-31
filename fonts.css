@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ALK Tall';
+    src: url('/fonts/alk-tall-nusxuri-webfont.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/alk-tall-nusxuri-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/alk-tall-nusxuri-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/alk-tall-nusxuri-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/alk-tall-nusxuri-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/alk-tall-nusxuri-webfont.svg#alk_tall_nusxuriregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('/fonts/BebasNeue-Regular.eot');
+  src: url('/fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg'),
+       url('/fonts/BebasNeue-Regular.ttf') format('truetype'),
+       url('/fonts/BebasNeue-Regular.woff') format('woff'),
+       url('/fonts/BebasNeue-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
