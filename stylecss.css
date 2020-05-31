@@ -33,15 +33,15 @@ a{text-decoration: none;}
     position: relative;
     left: -50%; padding-top: 100px}
 .nav {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 10px;
-  width: 70%;
-   text-align:left;
-       left: 4%;
+ list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 10px;
+    width: 70%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 751px;
 }
 .nav li {
   display: inline-block;
